@@ -13,13 +13,24 @@ Data Source: Open-Meteo API (for both Geocoding and Weather data)
 
 Project Structure
 The project follows a standard Node.js application structure:
-
+<br>
 weather-app/
+<br>
 ├── public/
+<br>
 │   └── styles/
+<br>
 │       └── main.css      # All CSS styles
+<br>
 ├── views/
+<br>
 │   └── index.ejs         # The main (and only) view for the user
+<br>
 ├── index.js              # The main Express server file
+<br>
 ├── package.json          # Project metadata and dependencies
+<br>
 └── README.md             # You are here!
+
+API Credits
+This project would not be possible without the free and open-source Open-Meteo API. It provides high-quality weather and geocoding data without requiring an API key.
